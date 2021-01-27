@@ -1,0 +1,22 @@
+/* Banner */
+.heroimage {
+  background-image: url("../img/hero-image.jpg");
+  background-position:center;
+  background-size: cover;
+  width: 100vw;
+  height: 750px;
+  background-repeat: no-repeat;
+  display: inline;;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+  font-family: "Montserrat", Italics;
+  color: rgb(3, 252, 240);
+  font-size: 5vh;
+  min-width: 80%;
+  margin: 15rem auto;
+  max-width: 80%;
+  padding: 10vw 5vw;
+}
