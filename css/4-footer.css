@@ -1,0 +1,69 @@
+
+
+.container-footer, .bottom-container {
+   position: relative;;
+   width: 100%;
+   background-color: #ff4c68;
+   color: black;
+   text-align: center;
+}
+
+.social-icon {
+  padding-top: 20px;
+  color: black;
+  margin: 20px 10px;
+  size:500px;
+}
+.copyright {
+  color: black;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+ h4, p, input, button{
+
+font-family: 'Montserrat', sans-serif;
+}
+h2 {
+    color:rgb(76, 2, 76);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    display: block;
+    font-size: 0.75em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+    
+}
+
+h4{
+color: black;
+}
+
+input{
+width: 300px;
+text-align: center;
+}
+
+.subscribe {
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color:black;
+  font-size: 15px;
+  padding: 10 25px 10px 20px;
+  text-decoration: none;
+}
+
+
+.subscribe:hover {
+  background: #30e3cb;
+  text-decoration: none;
+}

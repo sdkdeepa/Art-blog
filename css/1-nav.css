@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  height: 60px;
+
+}
+
+ 
+
+.nav-links {
+  font-family: 'Monstserrat', sans-serif;
+  font-weight:bolder;
+  float: right;
+  list-style: none;
+  margin: 0;
+  align-self: center;
+}
+
+ul{
+   padding:2px;
+  margin: 0 0 0 0;
+}
+
+.nav a {
+
+  float: right;
+  display: block;
+  color: rgb(162, 53, 53);
+  text-align: center;
+  text-decoration: none;
+  transition: .3s;
+  /* width: 100%;
+  margin: 10px 20px;
+  padding: 10px 22px; */
+  
+  
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+
+@media screen and (max-width: 600px) {
+  .nav a {
+    float: none;
+    width: auto;
+  }
+}
