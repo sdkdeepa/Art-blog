@@ -1,9 +1,9 @@
-@import 'main.css';
-@import 'footer.css';
-@import 'nav.css';
+@import "main.css";
+@import "footer.css";
+@import "nav.css";
 
 body {
-    margin:0;
+  margin: 0;
 }
 
 .nav {
@@ -14,35 +14,34 @@ body {
   height: 60px;
 }
 h1 {
-    text-align: center;
-    font-size: 5vh;
+  text-align: center;
+  font-size: 5vh;
 }
 
-h2{
-    text-align: left;
-    margin-left: 50px;
+h2 {
+  text-align: left;
+  margin-left: 50px;
 }
 
-p{
-    margin-left: 100px ;
-    margin-right: 100px;
+p {
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 footer h2 {
-    text-align: center;
+  text-align: center;
 }
 
 /* Medium Screens */
-@media (min-width: 700px) and (max-width:1200px) {
-    .content2 {
-        padding: 35px 15%;
-    }
+@media (min-width: 700px) and (max-width: 1200px) {
+  .content2 {
+    padding: 35px 15%;
+  }
 }
-
 
 /* Large Screens */
 @media (min-width: 1201px) {
-    .content2 {
-        padding: 60px 26%;
-    }
+  .content2 {
+    padding: 60px 26%;
+  }
 }

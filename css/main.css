@@ -2,34 +2,31 @@
 @import "hero.css";
 @import "footer.css";
 body {
-    margin: 0 auto;
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-    overflow-y: auto;
-    background-color: wheat;
-
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: wheat;
 }
 
 /*  art image */
 .img-card {
-    width: 400px;
-    height: 400px;
+  width: 400px;
+  height: 400px;
 }
 
 /* card */
 .card {
-
-    display: inline;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: stretch;
-    width: 320px;
-    height: 500px;
-    padding-bottom: 10px;
-    text-align: center;
-    align-content:flex-start;
-
+  display: inline;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  width: 320px;
+  height: 500px;
+  padding-bottom: 10px;
+  text-align: center;
+  align-content: flex-start;
 }
 
 section {
@@ -45,18 +42,18 @@ section {
 /*Blogs Grid Medium screens */
 @media (min-width: 600px) and (max-width: 1100px) {
   .blog {
-    display:flex;
+    display: flex;
     justify-content: space-evenly;
     grid-gap: 10px;
   }
 }
 
 .card-content h2 {
-    color:rgb(76, 2, 76);
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
-    font-weight: normal;
-    padding-bottom: 10px;
+  color: rgb(76, 2, 76);
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
 }
 
 hr {
@@ -70,17 +67,15 @@ hr {
 
 @media (min-width: 1100px) {
   .blog {
-    display:flexbox;
+    display: flexbox;
     grid-gap: 0px;
   }
 }
 
-
-
 /*Blogs Grid Medium screens */
 @media (min-width: 600px) and (max-width: 1100px) {
   .blog {
-    display:flex;
+    display: flex;
     justify-content: space-evenly;
     grid-gap: 10px;
   }

@@ -1,10 +1,10 @@
 /* Banner */
 .main-img {
-  background-position:center;
+  background-position: center;
   background-size: cover;
   width: 100vw;
   height: 750px;
-  display: inline;;
+  display: inline;
   align-items: center;
   justify-content: center;
 }
@@ -12,6 +12,6 @@
 h1 {
   text-align: center;
   font-family: "Montserrat", Italics;
-  color:rgb(76, 2, 76);
+  color: rgb(76, 2, 76);
   font-size: 3.5vh;
 }
