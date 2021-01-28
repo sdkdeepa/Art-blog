@@ -19,9 +19,9 @@ body {
   align-self: center;
 }
 
-ul {
-  padding: 2px;
-  margin: 0 0 0 0;
+.logo {
+  width: 125px;
+  height: 75px;
 }
 
 .nav a {
@@ -40,6 +40,12 @@ ul {
 .nav li {
   display: inline-block;
   margin-right: 20px;
+}
+
+
+ul {
+  padding: 2px;
+  margin: 0 0 0 0;
 }
 
 @media screen and (max-width: 600px) {
