@@ -7,22 +7,17 @@ body {
     height: 100%;
     overflow-x: hidden;
     overflow-y: auto;
-    background-color:#ff4c68;
+    background-color: wheat;
 
 }
 
-
-
-/* Nav bar area*/
-.nav{
-    grid-area: hd;
-}
-
+/*  art image */
 .img-card {
-    width: 250px;
-    height: 250px;
+    width: 400px;
+    height: 400px;
 }
 
+/* card */
 .card {
 
     display: inline;
@@ -33,17 +28,14 @@ body {
     height: 500px;
     padding-bottom: 10px;
     text-align: center;
-    background-color:hsl(181, 69%, 74%);
-    text-decoration: none;
     align-content:flex-start;
 
 }
 
 section {
-  background-color:#ff4c68;
+  background-color: wheat;
   margin-top: 1rem;
 }
-
 
 .art-text {
   font-size: 3rem;
@@ -67,6 +59,13 @@ section {
     padding-bottom: 10px;
 }
 
+hr {
+  border: dotted grey 10px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
 /***** Blogs Grid Large screens ****/
 
 @media (min-width: 1100px) {
@@ -86,4 +85,3 @@ section {
     grid-gap: 10px;
   }
 }
-
