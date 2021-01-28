@@ -1,13 +1,15 @@
 body {
   margin: 0;
   padding: 0;
+  
 }
 .nav {
-  background-color: white;
+  background-color:#ff4c68;
   display: flex;
   justify-content: space-between;
   text-align: center;
   height: 60px;
+
 
 }
 
@@ -31,7 +33,7 @@ ul{
 
   float: right;
   display: block;
-  color: rgb(162, 53, 53);
+  color: rgb(76, 2, 76);
   text-align: center;
   text-decoration: none;
   transition: .3s;
@@ -40,6 +42,10 @@ ul{
   padding: 10px 22px; */
   
   
+}
+
+ .nav a:hover {
+ color: aquamarine;
 }
 
 .nav li {

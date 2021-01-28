@@ -3,7 +3,8 @@
 .container-footer, .bottom-container {
    position: relative;;
    width: 100%;
-   background-color: #ff4c68;
+    height: 100%;
+   background-color:whitesmoke;
    color: black;
    text-align: center;
 }
@@ -22,13 +23,13 @@
 
  h4, p, input, button{
 
-font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
+
 h2 {
     color:rgb(76, 2, 76);
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
-    font-style: italic;
     font-weight: normal;
     padding-bottom: 10px;
 }
@@ -51,6 +52,10 @@ color: black;
 input{
 width: 300px;
 text-align: center;
+}
+
+p{
+ font-style: italic;
 }
 
 .subscribe {
