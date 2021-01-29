@@ -2,6 +2,12 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.logo {
+  width: 125px;
+  height: 75px;
+}
+
 .nav {
   background-color: wheat;
   display: flex;
@@ -41,7 +47,6 @@ body {
   display: inline-block;
   margin-right: 20px;
 }
-
 
 ul {
   padding: 2px;
