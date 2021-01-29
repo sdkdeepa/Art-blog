@@ -23,7 +23,9 @@ h2 {
   margin-left: 50px;
 }
 
-p {
+.blog-details p {
+  text-align: center;
+  text-align: justify;
   margin-left: 100px;
   margin-right: 100px;
 }
@@ -32,16 +34,40 @@ footer h2 {
   text-align: center;
 }
 
-/* Medium Screens */
-@media (min-width: 700px) and (max-width: 1200px) {
-  .content2 {
+.about h2, p{
+  text-align: center;
+}
+
+
+.avatar{
+  position: relative;
+	height: 100px;
+	width: 100px;
+	margin: auto;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 1px 1px 15px -5px black;
+
+}
+
+.profile-pic {
+    padding-left: 45%;
+		padding-right: 45%;
+  
+		} 
+
+
+/*Medium Screens
+/* @media (min-width: 700px) and (max-width: 1200px) {
+  .content {
     padding: 35px 15%;
   }
 }
 
 /* Large Screens */
-@media (min-width: 1201px) {
-  .content2 {
+/* @media (min-width: 1201px) {
+  .content {
     padding: 60px 26%;
   }
-}
+} */ 
+
