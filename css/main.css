@@ -17,17 +17,21 @@ body {
 }
 
 /* card */
-
 .card {
-  margin: 100 auto;
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto auto;
-  justify-content: center;
+  display: inline;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  width: 320px;
+  height: 500px;
+  padding-bottom: 10px;
+  text-align: center;
+  align-content: flex-start;
 }
 
 section {
   background-color: wheat;
+  margin-top: 1rem;
 }
 
 .art-text {
@@ -48,36 +52,21 @@ section {
   color: rgb(76, 2, 76);
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
-  font-weight: bold;
-  padding-bottom: 5px;
-  text-align: center;
+  font-weight: normal;
+  padding-bottom: 10px;
 }
 
 hr {
-  border: dotted grey 8px;
+  border: dotted grey 10px;
   border-bottom: none;
   width: 4%;
   margin: 100px auto;
 }
 
-button {
-  border-radius: 8px;
-  font-family: "Montserrat", sans-serif;
-  color: blue;
-  font-size: 15px;
-
-  text-align: center;
-}
-
-button:hover {
-  background: #30e3cb;
-  text-decoration: coral;
-}
-
 /***** Blogs Grid Large screens ****/
 
 @media (min-width: 1100px) {
-  .container {
+  .blog {
     display: flexbox;
     grid-gap: 0px;
   }
@@ -85,7 +74,7 @@ button:hover {
 
 /*Blogs Grid Medium screens */
 @media (min-width: 600px) and (max-width: 1100px) {
-  .container {
+  .blog {
     display: flex;
     justify-content: space-evenly;
     grid-gap: 10px;
