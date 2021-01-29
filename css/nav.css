@@ -25,6 +25,11 @@ body {
   align-self: center;
 }
 
+.logo {
+  width: 125px;
+  height: 75px;
+}
+
 .nav a {
   float: right;
   display: block;
