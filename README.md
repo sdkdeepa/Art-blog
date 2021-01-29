@@ -7,7 +7,7 @@ https://sdkdeepa.github.io/blogsite-project1/
 See detailed rubric here for this project: https://review.udacity.com/#!/rubrics/2667/view
 
 Files are organized with a directory structure that separates files based on page and functionality.
-.
+```
 ├── README.md
 ├── blog_post
 │ ├── acrylic.html
@@ -27,18 +27,18 @@ Files are organized with a directory structure that separates files based on pag
 │ ├── logo.png
 │ ├── madubani.png
 │ └── pastel.png
-└── index.html
+└── index.html```
 
-❌ Headers (h1 to h3 at minimum): Please add h3 header tag. Only h1 and h2 are present
-❌ Quotes: Use q or blockquote tag
-❌ Bold: Use strong tag
-❌ Italic: Use em tag
-❌ Underlined: Use u tag
+- ❌ Headers (h1 to h3 at minimum): Please add h3 header tag. Only h1 and h2 are present
+- ❌ Quotes: Use q or blockquote tag
+- ❌ Bold: Use strong tag
+- ❌ Italic: Use em tag
+- ❌ Underlined: Use u tag
 
-❌ Image caption
+- ❌ Image caption
 
 Followed - The general pattern of the webpage
-❌ Short Bio
-❌ Avatar
+- ❌ Short Bio
+- ❌ Avatar
 
 Followed - Uses CSS Grid at least twice throughout the project to create the layout for pages
