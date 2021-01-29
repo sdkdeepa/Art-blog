@@ -6,13 +6,6 @@ body {
   margin: 0;
 }
 
-.nav {
-  background-color: #ff4c68;
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-  height: 60px;
-}
 h1 {
   text-align: center;
   font-size: 5vh;
@@ -43,10 +36,11 @@ p {
   position: relative;
   height: 100px;
   width: 100px;
-  margin: auto;
+
+  margin-left: 250px;
+  margin-right: 250px;
   border-radius: 50%;
   overflow: hidden;
-  box-shadow: 1px 1px 15px -5px black;
 }
 
 .profile-pic {
@@ -57,17 +51,25 @@ p {
 /***** Blogs Grid Large screens ****/
 
 @media (min-width: 1100px) {
-  .container {
-    display: flexbox;
+  body {
+    display: grid;
     grid-gap: 0px;
   }
 }
 
 /*Blogs Grid Medium screens */
 @media (min-width: 600px) and (max-width: 1100px) {
-  .container {
-    display: flex;
+  body {
+    display: grid;
     justify-content: space-evenly;
     grid-gap: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    display: grid;
+    justify-content: space-evenly;
+    grid-gap: 0px;
   }
 }

@@ -9,7 +9,7 @@ body {
 }
 
 .nav {
-  background-color: wheat;
+  background-color: #edb83c;
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -23,11 +23,6 @@ body {
   list-style: none;
   margin: 0;
   align-self: center;
-}
-
-.logo {
-  width: 125px;
-  height: 75px;
 }
 
 .nav a {
