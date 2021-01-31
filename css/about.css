@@ -19,6 +19,11 @@ p {
   font-family: "Montserrat", sans-serif;
 }
 
+.name,
+.title {
+  text-align: center;
+}
+
 .copyright {
   text-align: center;
 }
