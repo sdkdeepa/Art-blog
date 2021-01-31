@@ -1,6 +1,7 @@
 @import "nav.css";
 @import "hero.css";
 @import "footer.css";
+
 body {
   margin: 0 auto;
   width: 100%;
@@ -10,12 +11,21 @@ body {
   background-color: wheat;
 }
 
-/*  art image */
-.img-card {
-  width: 400px;
-  height: 400px;
+figcaption {
+  font-family: "Montserrat", sans-serif;
 }
 
+.art-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.button {
+  font-weight: bolder;
+  color: blue;
+  background-color: lightskyblue;
+  border-radius: 8px;
+}
 /* card */
 .card {
   display: inline;
@@ -29,23 +39,10 @@ body {
   align-content: flex-start;
 }
 
-section {
-  background-color: wheat;
-  margin-top: 1rem;
-}
-
-.art-text {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-/*Blogs Grid Medium screens */
-@media (min-width: 600px) and (max-width: 1100px) {
-  .blog {
-    display: flex;
-    justify-content: space-evenly;
-    grid-gap: 10px;
-  }
+/*  art image */
+.img-card {
+  width: 400px;
+  height: 400px;
 }
 
 .card-content h2 {
