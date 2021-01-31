@@ -57,12 +57,12 @@ p {
   font-style: italic;
 }
 button{
-    background-color: rgb(227, 162, 138) ;
+    background-color: green;
 }
 .subscribe {
   border-radius: 8px;
   font-family: "Montserrat", sans-serif;
-  color:green;
+  color:whitesmoke;
   font-weight:normal;
   font-size: 15px;
   padding: 10 25px 10px 20px;

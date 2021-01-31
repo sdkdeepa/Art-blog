@@ -22,10 +22,11 @@ figcaption {
 
 .button {
   font-weight: bolder;
-  color: blue;
+  color: green;
   background-color: lightskyblue;
   border-radius: 8px;
 }
+
 /* card */
 .card {
   display: inline;
