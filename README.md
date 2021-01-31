@@ -2,7 +2,7 @@
 # Udacity blogsite-project1
 This is the Blogsite project developed for Udacity Frontend web developer program
 
-https://sdkdeepa.github.io/udacity-blogsite-project1
+https://sdkdeepa.github.io/Udacity-blogsite-project1/index.html
 
 See detailed rubric here for this project: https://review.udacity.com/#!/rubrics/2667/view
 
