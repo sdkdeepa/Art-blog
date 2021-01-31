@@ -1,6 +1,5 @@
-@import "main.css";
-@import "footer.css";
-@import "nav.css";
+@import "../css/main.css";
+
 
 body {
   margin: 0;
@@ -27,32 +26,12 @@ footer h2 {
   text-align: center;
 }
 
-.about h2,
-p {
-  text-align: center;
-}
-
-.avatar {
-  position: relative;
-  height: 100px;
-  width: 100px;
-
-  margin-left: 250px;
-  margin-right: 250px;
-  border-radius: 50%;
-  overflow: hidden;
-}
-
-.profile-pic {
-  padding-left: 45%;
-  padding-right: 45%;
-}
-
 /***** Blogs Grid Large screens ****/
 
 @media (min-width: 1100px) {
   body {
     display: grid;
+    justify-content: space-evenly;
     grid-gap: 0px;
   }
 }
