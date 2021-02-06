@@ -18,6 +18,7 @@ body {
 
 .nav-links {
   font-family: "Monstserrat", sans-serif;
+  font-size: large;
   font-weight: bolder;
   float: right;
   list-style: none;

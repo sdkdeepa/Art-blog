@@ -4,20 +4,12 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 
 h2 {
   text-align: center;
   font-size: 5em;
-  font-family: "Montserrat", sans-serif;
-}
-
-footer {
-  position: relative;
-  height: 100%;
-  color:black;
-  background-color: #edb83c;
-  width: 100%;
 }
 
 p {
@@ -25,7 +17,14 @@ p {
   margin-left: 100px;
   margin-right: 100px;
   font-style: normal;
-  font-family: "Montserrat", sans-serif;
+}
+
+footer {
+  position: relative;
+  height: 100%;
+  color: black;
+  background-color: #edb83c;
+  width: 100%;
 }
 
 .container {
@@ -33,17 +32,12 @@ p {
   min-height: 100vh;
 }
 
-
 .name,
 .title {
   text-align: center;
 }
-/* 
-.copyright {
-  text-align: center;
-} */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .profile-pic {
     display: none;
   }
@@ -58,28 +52,27 @@ p {
   }
 }
 
-
-/*Media query for differnt screens */
 @media (min-width: 1100px) {
   body {
     display: grid;
-    grid-gap: 0px;
     justify-content: space-evenly;
-  }
-}
-
-@media (min-width: 1100px) {
-  .blog {
-    display: flexbox;
     grid-gap: 0px;
   }
 }
 
 /*Blogs Grid Medium screens */
 @media (min-width: 600px) and (max-width: 1100px) {
-  .blog {
-    display: flex;
+  body {
+    display: grid;
     justify-content: space-evenly;
     grid-gap: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    display: grid;
+    justify-content: space-evenly;
+    grid-gap: 0px;
   }
 }

@@ -1,6 +1,5 @@
 @import "../css/main.css";
 
-
 body {
   margin: 0;
 }
@@ -16,9 +15,9 @@ h2 {
 }
 
 footer {
-  position:absolute;
+  position: absolute;
   height: 10%;
-  color:black;
+  color: black;
   background-color: #edb83c;
   width: 100%;
 }
