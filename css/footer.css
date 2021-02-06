@@ -74,3 +74,8 @@ button{
   background: #30e3cb;
   text-decoration: none;
 }
+
+.copyright {
+  text-align: center;
+  padding-bottom: 10px;
+}
