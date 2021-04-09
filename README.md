@@ -27,7 +27,8 @@ Files are organized with a directory structure that separates files based on pag
 │ ├── logo.png
 │ ├── madubani.png
 │ └── pastel.png
-└── index.html```
+└── index.html
+```
 
 - ❌ Headers (h1 to h3 at minimum): Please add h3 header tag. Only h1 and h2 are present
 - ❌ Quotes: Use q or blockquote tag
