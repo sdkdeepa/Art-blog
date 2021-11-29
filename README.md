@@ -30,16 +30,16 @@ Files are organized with a directory structure that separates files based on pag
 └── index.html
 ```
 
-- ❌ Headers (h1 to h3 at minimum): Please add h3 header tag. Only h1 and h2 are present
-- ❌ Quotes: Use q or blockquote tag
-- ❌ Bold: Use strong tag
-- ❌ Italic: Use em tag
-- ❌ Underlined: Use u tag
+- [X] Headers (h1 to h3 at minimum): Please add h3 header tag. Only h1 and h2 are present
+- [X] Quotes: Use q or blockquote tag
+- [X] Bold: Use strong tag
+- [X] Italic: Use em tag
+- [X] Underlined: Use u tag
 
-- ❌ Image caption
+- [X] Image caption
 
 Followed - The general pattern of the webpage
-- ❌ Short Bio
-- ❌ Avatar
+- [X] Short Bio
+- [X] Avatar
 
 Followed - Uses CSS Grid at least twice throughout the project to create the layout for pages
